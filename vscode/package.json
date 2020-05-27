@@ -3,7 +3,9 @@
 	"publisher": "rahulmutt",
 	"displayName": "HsInspect Language Server",
 	"description": "Haskell language support via hsinspect",
+	"license": "Apache-2.0",
 	"version": "0.0.1",
+	"repository": {"url": "https://github.com/rahulmutt/vscode-hsinspect" },
 	"engines": {
 		"vscode": "^1.45.0"
 	},
