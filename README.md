@@ -1,12 +1,21 @@
 # VSCode Support for hsinspect
 
-This project aims to provide a lightweight and snappy Haskell IDE experience.
+This project aims to provide a lightweight and snappy Haskell IDE experience using the [hsinspect-lsp](https://gitlab.com/tseenshe/hsinspect) tool.
 
-It consists of the following:
+It provides a vscode extension that picks up 
 
-- A Language Protocol Server (LSP) that uses `hsinspect` to collect information about your Haskell projects.
-- A VSCode extension that hooks onto the LSP server.
+## Usage
 
-## Implementation Plan
+1. Install the language server.
 
-[ ] Setup a skeleton for both the server and the client
+    ```bash
+    cabal install hsinspect-lsp
+    ```
+
+    OR
+
+    ```bash
+    stack install hsinspect-lsp
+    ```
+
+2. Follow the instructions in the [hsinspect repo](https://gitlab.com/tseenshe/hsinspect/-/tree/master#installation) for how to setup your project for inspection.
